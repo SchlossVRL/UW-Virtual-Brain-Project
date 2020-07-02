@@ -5,7 +5,7 @@ _Karen B. Schloss, Melissa A. Schoenlein, Ross Tredinnick, Simon Smith, Nathanie
 The UW Virtual Project aims to create interactive 3D diagrams for lessons about the sensory systems of the brain. In this project, we evaluated two lessons, the Virtual Visual System and Virtual Auditory System with two in-lab experiments and a classroom implementation. In the lab, we found that the lessons were effective for STEM based learning outcomes when presented in VR or when presented on a computer monitor (PC). However, participants found the VR lessons easier to use and more enjoyable than the PC lessons. In the classroom, students reported that the VR lessons helped them make moderate to substantial progress on course learning outcomes. These results suggest that VR can be an effective educational tool in the classroom. 
 
 ---
-
+## FOLDER: VB-DataFiles
 ### Data files 
 
 #STEM CONTENT: 
@@ -61,6 +61,10 @@ The UW Virtual Project aims to create interactive 3D diagrams for lessons about 
 `VB-Analyses.sps`: Contains script for running the analyses for all 3 experiments (ANOVAs, t-tests). Takes files above as inputs. 
 
 
+## FOLDER: VB-DataFiles
+### VB-TestingMaterials
+
+`PaperTestGradingDetails` and `LookingGlassTestGradingDetails` provide the full rubric used by the coders to grade the paper drawing/labeling and Looking Glass drawing/labeling tests, respectively. 
 
 
 
