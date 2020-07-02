@@ -18,7 +18,7 @@ The UW Virtual Project aims to create interactive 3D diagrams for lessons about 
       - 2DA3DV = Auditory system on PC then visual system in VR
       - 3DA2DV = Auditory system in VR then visual system on PC
 - `Lesson1.Pre`: Score on lesson 1 pre-test (range: 0-18)
-- `Lesson1.Post': Score on lesson 1 post-test (range: 0-18)
+- `Lesson1.Post`: Score on lesson 1 post-test (range: 0-18)
 - `Lesson2.Pre`: Score on lesson 2 pre-test (range: 0-18)
 - `Lesson2.Post`: Score on lesson 2 post-test (range: 0-18)
 - `DeviceOrderC`:  0 = PC then VR, 1 = VR then PC
@@ -40,9 +40,10 @@ The UW Virtual Project aims to create interactive 3D diagrams for lessons about 
 
 `Experience-Exp1A.csv`, `Experience-Exp1B.csv`, `Experience-Exp2.csv`: store the data from the experience questionnaire. Each participant rated the 7 items using a Likert scale from 1 (“Not at all”) to 7 (“Very much”).  Each item has a column for ratings made on the VR experience (item.VR) and one column for the PC experience (item.PC) (12 columns total).  Additional columns include
 - `Subj`: participant number
-- `AveEnjoy` = average of 6 items above except EaseControl (by device) 
+- `AveEnjoy` = average of 6 items excluding EaseControl(column for each device)
 
 #SIMULATOR SICKNESS QUESTIONNAIRE
+
 `SSQ-Exp1A.csv`, `SSQ-Exp1B.csv`, `SSQ-Exp2.csv`: store the data from the simulator sickness questionanires. Each participant rated the 4 items (headache repeated in Exp1A and Exp1B) by circling "None", "Slight", "Moderate", "Severe", coded as 1-4. The columns include one column for each of the 4 items at each timepoint (timepoints marked as Q1, Q2, Q3) (12 columns total). Additional columns include 
 - `Subj`: participant number
 - `AveHeadache` = average of two headache ratings for each timepoint. Note Exp2 only had headache presented once, but we include this column for consistency across experiments when performing the analyses. 
@@ -51,10 +52,13 @@ The UW Virtual Project aims to create interactive 3D diagrams for lessons about 
 `ClassroomReports-Exp3.csv`: stores the data from the classroom implementation (Exp3). Students rated each learning outcome (sensory input, system pathways, system purpose) for both the Visual and auditory system (V, A). Columns include ratings for each outcome for each system, labeled as system.outcome (i.e., V.input), and whether they participated in the given lesson. Additional columns include: 
 -`Subj` = participant number
 
-
+`ClassFreeResponse1-WhatContributed` and `ClassFreeResponse2-WhatWouldMakeMoreUseful`: contain the transcribed free response answers from the student evaluation 
 
 ### R scripts
 `PlottingFigures.R`: R script for plotting data from all 3 experiments. Takes files above as inputs.
+
+### SPSS Scripts
+`VB-Analyses.sps`: Contains script for running the analyses for all 3 experiments (ANOVAs, t-tests). Takes files above as inputs. 
 
 
 
