@@ -36,11 +36,14 @@ The UW Virtual Project aims to create interactive 3D diagrams for lessons about 
 - `TestingDevice`: 0 = Paper testing (Exp1A & 1B), 1 = Looking Glass testing (Exp2)
 
 
+
 #EXPERIENCE QUESTIONNAIRE
 
 `Experience-Exp1A.csv`, `Experience-Exp1B.csv`, `Experience-Exp2.csv`: store the data from the experience questionnaire. Each participant rated the 7 items using a Likert scale from 1 (“Not at all”) to 7 (“Very much”).  Each item has a column for ratings made on the VR experience (item.VR) and one column for the PC experience (item.PC) (12 columns total).  Additional columns include
 - `Subj`: participant number
 - `AveEnjoy` = average of 6 items excluding EaseControl(column for each device)
+
+
 
 #SIMULATOR SICKNESS QUESTIONNAIRE
 
@@ -48,7 +51,10 @@ The UW Virtual Project aims to create interactive 3D diagrams for lessons about 
 - `Subj`: participant number
 - `AveHeadache` = average of two headache ratings for each timepoint. Note Exp2 only had headache presented once, but we include this column for consistency across experiments when performing the analyses. 
 
+
+
 #CLASSROOM REPORTS
+
 `ClassroomReports-Exp3.csv`: stores the data from the classroom implementation (Exp3). Students rated each learning outcome (sensory input, system pathways, system purpose) for both the Visual and auditory system (V, A). Columns include ratings for each outcome for each system, labeled as system.outcome (i.e., V.input), and whether they participated in the given lesson. Additional columns include: 
 -`Subj` = participant number
 
