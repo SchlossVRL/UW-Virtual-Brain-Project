@@ -47,7 +47,7 @@ EXPERIENCE QUESTIONNAIRE
 
 SIMULATOR SICKNESS QUESTIONNAIRE
 
-`SSQ-Exp1A.csv`, `SSQ-Exp1B.csv`, `SSQ-Exp2.csv`: store the data from the simulator sickness questionanires. Each participant rated the 4 items (headache repeated in Exp1A and Exp1B) by circling "None", "Slight", "Moderate", "Severe", coded as 1-4. The columns include one column for each of the 4 items at each timepoint (timepoints marked as Q1, Q2, Q3) (12 columns total). Additional columns include 
+`SSQ-Exp1A.csv`, `SSQ-Exp1B.csv`, `SSQ-Exp2.csv`: store the data from the simulator sickness questionanires. Each participant rated the 4 items (headache repeated in Exp1A and Exp1B and is marked as timepoint.Headache1 & timepoint.Headache2) by circling "None", "Slight", "Moderate", "Severe", coded as 1-4. The columns include one column for each of the 4 items at each timepoint (timepoints marked as Q1, Q2, Q3). Additional columns include:
 - `Subj`: participant number
 - `AveHeadache` = average of two headache ratings for each timepoint. Note Exp2 only had headache presented once, but we include this column for consistency across experiments when performing the analyses. 
 
