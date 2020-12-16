@@ -2,7 +2,7 @@
 
 _Karen B. Schloss, Melissa A. Schoenlein, Ross Tredinnick, Simon Smith, Nathaniel Miler, Chris Racey, Christian Castro, Bas Rokers_
 
-The UW Virtual Project aims to create interactive 3D diagrams for lessons about the sensory systems of the brain. In this project, we evaluated two lessons, the Virtual Visual System and Virtual Auditory System with two in-lab experiments and a classroom implementation. In the lab, we found that the lessons were effective for STEM based learning outcomes when presented in VR or when presented on a computer monitor (PC). However, participants found the VR lessons easier to use and more enjoyable than the PC lessons. In the classroom, students reported that the VR lessons helped them make moderate to substantial progress on course learning outcomes. These results suggest that VR can be an effective educational tool in the classroom. 
+The UW Virtual Project aims to create interactive 3D narrated diagrams for lessons about the perceptual systems of the brain. In this project, we evaluated two lessons, the Virtual Visual System and Virtual Auditory System with two in-lab experiments and a classroom implementation. In the lab, we found that the lessons were effective for content-based learning outcomes when presented in VR or when presented on a computer monitor (PC). However, participants found the VR lessons easier to use and more enjoyable than the PC lessons. In the classroom, students reported that the VR lessons helped them make moderate to substantial progress on course learning outcomes. These results suggest that VR can be an effective educational tool in the classroom. 
 
 ---
 ## FOLDER: VB-DataFiles
@@ -30,6 +30,8 @@ STEM CONTENT:
 - `VRLesson`: Change in performance score for lesson completed in VR(Post-Pre) (range: -18 to 18)
 - `VisualLesson`: Change in performance score for lesson on Visual System(Post-Pre) (range: -18 to 18)
 - `AuditoryLesson`: Change in performance score for lesson on Auditory System (Post-Pre) (range: -18 to 18)
+- `Visual.Pre`: Pre-test score for lesson on Visual System (range: 0 to 18)
+- `Auditory.Pre`: Pre-test score for lesson on Auditory System (range: 0 to 18)
 
 `STEM-All.csv`: stores the combined data for the 3 experiments above. In addition to the columns above, there are two additional columns: 
 - `Experiment`:  1a, 1b, or 2 corresponding to which experiment
