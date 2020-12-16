@@ -9,6 +9,12 @@
 *    STEM-Exp2.csv
 *    STEM-All.csv
 
+* paired samples t-test for Visual and Auditory lesson pre-test scores.
+T-TEST PAIRS=Visual.Pre WITH Auditory.Pre (PAIRED)
+  /CRITERIA=CI(.9500)
+  /MISSING=ANALYSIS.
+
+
 * independent samples t-test for PC and VR lessons (testing change in performance against zero). 
 T-TEST
   /TESTVAL=0
@@ -27,13 +33,13 @@ T-TEST PAIRS=PCLesson WITH VRLesson (PAIRED)
 GLM PCLesson VRLesson BY DeviceOrderC SystemDeviceC
   /WSFACTOR=Device 2 Polynomial
   /METHOD=SSTYPE(3)
-  /PRINT=DESCRIPTIVE ETASQ
+  /PRINT=DESCRIPTIVE ETASQ OPOWER PARAMATER
   /CRITERIA=ALPHA(.05)
   /WSDESIGN=Device
   /DESIGN=DeviceOrderC SystemDeviceC DeviceOrderC*SystemDeviceC.
 
 
-*Exp1b only: *paired samples t-test ocmparing visual and auditory lessons.
+*Exp1b only: *paired samples t-test comparing visual and auditory lessons.
 T-TEST PAIRS=VisualLesson WITH AuditoryLesson (PAIRED)
   /CRITERIA=CI(.9500)
   /MISSING=ANALYSIS.
