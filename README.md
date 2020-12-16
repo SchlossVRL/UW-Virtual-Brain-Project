@@ -57,10 +57,13 @@ SIMULATOR SICKNESS QUESTIONNAIRE
 
 CLASSROOM REPORTS
 
-`ClassroomReports-Exp3.csv`: stores the data from the classroom implementation (Exp3). Students rated each learning outcome (sensory input, system pathways, system purpose) for both the Visual and auditory system (V, A). Columns include ratings for each outcome for each system, labeled as system.outcome (i.e., V.input), and whether they participated in the given lesson. Additional columns include: 
+`ClassroomReports.csv`: stores the data from the classroom implementation. Students rated each learning outcome (sensory input, system pathways, system purpose) for both the Visual and auditory system (V, A). Columns include ratings for each outcome for each system, labeled as system.outcome (i.e., V.input), and whether they participated in the given lesson. Additional columns include: 
 -`Subj` = participant number
 
 `ClassFreeResponse1-WhatContributed` and `ClassFreeResponse2-WhatWouldMakeMoreUseful`: contain the transcribed free response answers from the student evaluation 
+
+`ClassFreeResponseThemes.csv`: stores the free response data sorted into themes for both two free-response questions (Tab 1: whatContributed & Tab 2: moreUseful). Columns indicate the theme. Each row represents one student's response. For each response, if it "fit" a given theme (according to at least 2 of the coders), a "1" was placed in the cell. 
+
 
 ### R scripts
 
