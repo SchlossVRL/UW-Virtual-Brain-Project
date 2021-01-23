@@ -74,10 +74,14 @@ CLASSROOM REPORTS
 `VB-Analyses.sps`: Contains script for running the analyses for all 3 experiments (ANOVAs, t-tests). Takes files above as inputs. 
 
 
-## FOLDER: VB-DataFiles
+## FOLDER: VB-TestingMaterials
 ### VB-TestingMaterials
 
-`PaperTestGradingDetails` and `LookingGlassTestGradingDetails` provide the full rubric used by the coders to grade the paper drawing/labeling and Looking Glass drawing/labeling tests, respectively. 
+`PaperTestGradingDetails` and `LookingGlassTestGradingDetails` provide the full rubrics used by the coders to grade the paper drawing/labeling and Looking Glass drawing/labeling tests, respectively. 
+
+`PaperTestInstructions`provides the full instructions given to participants to complete the paper drawing/labeling tests for Experiment 1. These instructions were also used with slight adaptations to fit the tasks for Experiment 2. 
+
+
 
 
 
