@@ -75,7 +75,6 @@ CLASSROOM REPORTS
 
 
 ## FOLDER: VB-TestingMaterials
-### VB-TestingMaterials
 
 `PaperTests.pdf` provide the visual and auditory paper drawing/labeling tests used in Experiment 1. These paper tests were adapted to be used on the Looking Glass for Experiment 2.
 
