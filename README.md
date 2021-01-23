@@ -77,9 +77,13 @@ CLASSROOM REPORTS
 ## FOLDER: VB-TestingMaterials
 ### VB-TestingMaterials
 
-`PaperTestGradingDetails` and `LookingGlassTestGradingDetails` provide the full rubrics used by the coders to grade the paper drawing/labeling and Looking Glass drawing/labeling tests, respectively. 
+`PaperTests.pdf` provide the visual and auditory paper drawing/labeling tests used in Experiment 1. These paper tests were adapted to be used on the Looking Glass for Experiment 2.
 
-`PaperTestInstructions`provides the full instructions given to participants to complete the paper drawing/labeling tests for Experiment 1. These instructions were also used with slight adaptations to fit the tasks for Experiment 2. 
+`PaperTestInstructions.pdf`provides the full instructions given to participants to complete the paper drawing/labeling tests for Experiment 1. These instructions were also used with slight adaptations to fit the tasks for Experiment 2. 
+
+`PaperTestGradingDetails.pdf` and `LookingGlassTestGradingDetails.pdf` provide the full rubrics used by the coders to grade the paper drawing/labeling and Looking Glass drawing/labeling tests, respectively. 
+
+
 
 
 
