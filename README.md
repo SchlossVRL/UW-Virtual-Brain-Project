@@ -5,6 +5,11 @@ _Karen B. Schloss, Melissa A. Schoenlein, Ross Tredinnick, Simon Smith, Nathanie
 The UW Virtual Project aims to create interactive 3D narrated diagrams for lessons about the perceptual systems of the brain. In this project, we evaluated two lessons, the Virtual Visual System and Virtual Auditory System with two in-lab experiments and a classroom implementation. In the lab, we found that the lessons were effective for content-based learning outcomes when presented in VR or when presented on a computer monitor (PC). However, participants found the VR lessons easier to use and more enjoyable than the PC lessons. In the classroom, students reported that the VR lessons helped them make moderate to substantial progress on course learning outcomes. These results suggest that VR can be an effective educational tool in the classroom. 
 
 ---
+## FOLDER: Virtual Brain Lessons
+### Agreement 
+https://docs.google.com/forms/d/e/1FAIpQLSe3J_JdW1QfNzM8Ddi0QE17J2WZw4S8BGISa79Dg5XVXi3loA/viewform
+
+
 ## FOLDER: VB-DataFiles
 ### Data files 
 
