@@ -6,7 +6,7 @@ The UW Virtual Project aims to create interactive 3D narrated diagrams for lesso
 
 ---
 ## FOLDER: Virtual Brain Lessons
-### Agreement 
+### Please fill out the following form to help us track who and where is using the UW Virtual Brain Project. 
 https://docs.google.com/forms/d/e/1FAIpQLSe3J_JdW1QfNzM8Ddi0QE17J2WZw4S8BGISa79Dg5XVXi3loA/viewform
 
 
